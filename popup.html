@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Injector</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 250px;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      h1 {
+        margin-top: 0;
+        font-size: 24px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 5px;
+        width: 100%;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+
+      #status {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      #uninject {
+        background-color: #f44336;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>Astroid Injector</h1>
+    <p>Enter Astroid URL</p>
+    <input type="text" id="url" placeholder="Enter URL">
+    <button id="inject">Inject URL</button>
+    <button id="uninject">Uninject URL</button>
+    <p id="status"></p>
+  </body>
+</html>
+
