@@ -5,7 +5,7 @@ An ok little injection tool I made for Astroid V3 (Only Chromium based browsers 
 
 Installation Steps
 
-1. Download this repo locally on your PC / Chromebook / Mac (On the repo click Code -> Download as Zip) and Unzip the folder
+1. Download this repo locally on your PC / Chromebook / Mac (On the repo click Code -> Download as Zip or go to https://github.com/VyperGroup/astroid-injector/releases/ for the latest tested build) and Unzip the folder
 2. Open a chromium based web browser of choice.
 3. Go to chrome://extensions/
 4. Enable Developer Mode
